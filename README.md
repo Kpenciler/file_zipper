@@ -1,6 +1,7 @@
 # File Zipper
+![streamlit UI](assets/streamlit_ui.png)
 
-This is a simple file zipper tool that allows you to select multiple files to compress into a ZIP archive. 
+This is a simple file zipper tool that allows you to select multiple files to compress into a ZIP archive.
 
 ## How to use
 
@@ -16,6 +17,6 @@ To run this tool, please follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required packages by running `pip install -r requirements.txt` in your terminal.
 3. Run `streamlit run main.py` in your terminal to start the Streamlit app.
-4. Use the app as described in the "How to use" section above. 
+4. Use the app as described in the "How to use" section above.
 
 Note: This app assumes that the working directory is at the root level of the cloned repository. Any files uploaded will be stored in the "data" folder within the repository.
