@@ -6,6 +6,8 @@ from streamlit.runtime.uploaded_file_manager import UploadedFile
 from zip import zip_files, generate_password
 
 DARA_PATH = "data"
+os.makedirs(DARA_PATH, exist_ok=True)
+
 def upload_files(files: List[UploadedFile]):
     for file in files:
         with open(file.name, "wb") as f:
