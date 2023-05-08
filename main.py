@@ -3,7 +3,7 @@ import os
 import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
-from zip import zip_files, generate_password, zip_files_v2
+from zip import zip_files, generate_password
 
 DARA_PATH = "data"
 def upload_files(files: List[UploadedFile]):
